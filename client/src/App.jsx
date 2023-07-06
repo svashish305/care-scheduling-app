@@ -97,14 +97,14 @@ function App() {
         {editSchedule ? (
         <form onSubmit={handleUpdateSchedule}>
           <input
-            type="text"
+            type="datetime-local"
             name="startTime"
             placeholder="Start Time"
             value={newSchedule.startTime}
             onChange={handleInputChange}
           />
           <input
-            type="text"
+            type="datetime-local"
             name="endTime"
             placeholder="End Time"
             value={newSchedule.endTime}
@@ -130,14 +130,14 @@ function App() {
         ) : (
         <form onSubmit={handleCreateSchedule}>
           <input
-            type="text"
+            type="datetime-local"
             name="startTime"
             placeholder="Start Time"
             value={newSchedule.startTime}
             onChange={handleInputChange}
           />
           <input
-            type="text"
+            type="datetime-local"
             name="endTime"
             placeholder="End Time"
             value={newSchedule.endTime}
