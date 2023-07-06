@@ -17,7 +17,7 @@ services:
     env_file:
       - ./server/.env
     ports:
-      - 3000:3000
+      - 4000:4000
     environment:
       - MONGO_URI=mongodb+srv://sv:PJOzYnTTcjhQHiMR@cluster0.v1flhbm.mongodb.net/?retryWrites=true&w=majority
 
