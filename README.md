@@ -1,4 +1,10 @@
-# Run Instructions
+# Care Scheduling App
+
+## Short Description
+
+This is a MERN stack app where users can create, read, update and delete care schedules.
+
+## Run Instructions
 
 Below are run instructions for this app
 
