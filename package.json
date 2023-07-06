@@ -1,0 +1,24 @@
+{
+  "name": "care-scheduler-api",
+  "version": "1.0.0",
+  "description": "As a care agency office staff I need to see a list of schedule visits. Schedule visits explain which care worker will be visiting which client at which time. I need a method to create, update and delete schedule visits in an immutable way so as to be compliant with various regulations.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Shubhashish Verma",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
